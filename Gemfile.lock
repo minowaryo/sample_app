@@ -39,6 +39,8 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
     arel (8.0.0)
+    bootstrap-sass (3.3.1.0)
+      sass (~> 3.2)
     builder (3.2.3)
     coffee-rails (4.2.2)
       coffee-script (>= 2.2.0)
@@ -138,7 +140,7 @@ GEM
     turbolinks-source (5.1.0)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
-    uglifier (4.1.12)
+    uglifier (4.1.14)
       execjs (>= 0.3.0, < 3)
     websocket-driver (0.6.5)
       websocket-extensions (>= 0.1.0)
@@ -148,6 +150,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bootstrap-sass (= 3.3.1)
   coffee-rails (>= 4.0.1)
   jbuilder (>= 1.5.3)
   jquery-rails (>= 3.1.2)
